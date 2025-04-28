@@ -4,9 +4,9 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'JoWiki',
+    title: 'uejo.dev',
     // site subtitle
-    subtitle: 'Personal Blog',
+    subtitle: 'A personal blog about daily life and engineering',
     // site description
     description: 'Retypesetは、Astroフレームワークに基づいた静的ブログテーマです。タイポグラフィにインスパイアされたRetypesetは、新しいビジュアルスタンダードを確立し、すべてのページのレイアウトを再構築することで、紙の本を思わせる読書体験を創出し、タイポグラフィの美しさを復活させます。すべての視覚に細部があり、すべての空間に優雅さがあります。このブログは、私の個人的な思考や体験を共有するための場所です。',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
