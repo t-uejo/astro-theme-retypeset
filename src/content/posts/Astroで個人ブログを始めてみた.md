@@ -5,9 +5,9 @@ published: 2025-04-28
 description: astro-theme-retypesetというAstroテンプレートを使って個人ブログを構築した。
 ---
 
-[stro-theme-retypeset](https://github.com/radishzzz/astro-theme-retypeset?tab=readme-ov-file)という[Astro](https://astro.build/)テンプレートを使ってサイトを作った。作ったといってもGitHubからForkして、タイトルやテーマを少しカスタマイズしただけ。
+[stro-theme-retypeset](https://github.com/radishzzz/astro-theme-retypeset?tab=readme-ov-file)という[Astro](https://astro.build/)テンプレートを使ってブログを構築した。といってもGitHubからForkして、タイトルやテーマを少しカスタマイズしただけ。
 
-このブログを作った目的は、後から振り返れるようにするための記録と、自分の活動を知ってもらうため。
+このブログの目的は、後から振り返れるようにするための記録と、自分の活動を知ってもらうため。
 
 ブログの雰囲気や内容は、以下の方々を参考にさせてもらった。自分なりにゆるく楽しんで書いていけたらと思う。
 
