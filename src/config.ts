@@ -160,10 +160,6 @@ export const themeConfig: ThemeConfig = {
         name: 'GitHub',
         url: 'https://github.com/radishzzz/astro-theme-retypeset',
       },
-      {
-        name: 'Email',
-        url: 'email@radishzz.cc',
-      },
       // {
       //   name: 'X',
       //   url: 'https://x.com/radishzz_',
