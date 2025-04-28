@@ -24,16 +24,16 @@ export const themeConfig: ThemeConfig = {
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   color: {
     // default theme mode
-    mode: 'dark', // light, dark, auto
+    mode: 'auto', // light, dark, auto
     light: {
-      primary: 'oklch(0.24 0.053 261.24)',
-      secondary: 'oklch(0.39 0.053 261.24)',
-      background: 'oklch(1 0 0)',
+      primary: 'oklch(0.25 0.03 211.86)',
+      secondary: 'oklch(0.40 0.03 211.86)',
+      background: 'oklch(0.99 0.0039 106.47)',
     },
     dark: {
-      primary: 'oklch(0.92 0 0)',
-      secondary: 'oklch(0.79 0 0)',
-      background: 'oklch(0.24 0.016 265.21)',
+      primary: 'oklch(0.92 0.0015 106.47)',
+      secondary: 'oklch(0.79 0.0015 106.47)',
+      background: 'oklch(0.24 0.0039 106.47)',
     },
   },
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
@@ -44,7 +44,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'ja', // zh, zh-tw, ja, en, es, ru
     // more languages
     // not fill in the locale code above again
-    moreLocales: ['en', 'es', 'ru', 'zh', 'zh-tw'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
+    moreLocales: ['en'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
