@@ -58,7 +58,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'ja', // zh, zh-tw, ja, en, es, ru
     // more languages
     // not fill in the locale code above again
-    moreLocales: ['ja', 'en', 'es', 'ru', 'zh-tw'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
+    moreLocales: ['en', 'es', 'ru', 'zh', 'zh-tw'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
