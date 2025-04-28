@@ -1,6 +1,6 @@
 export const ui = {
   'zh': {
-    title: 'Uejo.dev',
+    title: 'uejo.dev',
     subtitle: 'A personal blog about daily life and engineering',
     description: 'Retypeset是一款基于Astro框架的静态博客主题，中文名为重新编排。本主题以活版印字为设计灵感，通过建立全新的视觉规范，对所有页面进行重新编排，打造纸质书页般的阅读体验，再现版式之美。所见皆为细节，方寸尽显优雅。',
     posts: '文章',
@@ -9,7 +9,7 @@ export const ui = {
     toc: '目录',
   },
   'zh-tw': {
-    title: 'Uejo.dev',
+    title: 'uejo.dev',
     subtitle: 'A personal blog about daily life and engineering',
     description: 'Retypeset是一款基於Astro框架的靜態部落格主題，中文名為重新編排。本主題以活版印字為設計靈感，通過建立全新的視覺規範，對所有頁面進行重新編排，打造紙質書頁般的閱讀體驗，再現版式之美。所見皆為細節，方寸盡顯優雅。',
     posts: '文章',
@@ -18,7 +18,7 @@ export const ui = {
     toc: '目錄',
   },
   'ja': {
-    title: 'Uejo.dev',
+    title: 'uejo.dev',
     subtitle: 'A personal blog about daily life and engineering',
     description: 'Retypesetは、Astroフレームワークに基づいた静的ブログテーマです。タイポグラフィにインスパイアされたRetypesetは、新しいビジュアルスタンダードを確立し、すべてのページのレイアウトを再構築することで、紙の本を思わせる読書体験を創出し、タイポグラフィの美しさを復活させます。すべての視覚に細部があり、すべての空間に優雅さがあります。このブログは、私の個人的な思考や体験を共有するための場所です。',
     posts: '記事',
@@ -27,7 +27,7 @@ export const ui = {
     toc: '目次',
   },
   'en': {
-    title: 'Uejo.dev',
+    title: 'uejo.dev',
     subtitle: 'A personal blog about daily life and engineering',
     description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
     posts: 'Posts',
@@ -36,7 +36,7 @@ export const ui = {
     toc: 'Table of Contents',
   },
   'es': {
-    title: 'Uejo.dev',
+    title: 'uejo.dev',
     subtitle: 'A personal blog about daily life and engineering',
     description: 'Retypeset es un tema de blog estático basado en el framework Astro. Inspirado por Typography, Retypeset establece un nuevo estándar visual y reimagina el diseño de todas las páginas, creando una experiencia de lectura similar a la de los libros impresos, reviviendo la belleza de la tipografía. Detalles en cada mirada, elegancia en cada espacio.',
     posts: 'Artículos',
@@ -45,7 +45,7 @@ export const ui = {
     toc: 'Índice',
   },
   'ru': {
-    title: 'Uejo.dev',
+    title: 'uejo.dev',
     subtitle: 'A personal blog about daily life and engineering',
     description: 'Retypeset — это статическая тема блога, основанная на фреймворке Astro. Вдохновленная Typography, Retypeset устанавливает новый визуальный стандарт и переосмысливает компоновку всех страниц, создавая опыт чтения, напоминающий печатные книги, возрождая красоту типографики. Детали в каждом взгляде, элегантность в каждом пространстве.',
     posts: 'Посты',
