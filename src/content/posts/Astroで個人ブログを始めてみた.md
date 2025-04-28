@@ -9,7 +9,7 @@ description: astro-theme-retypesetというAstroテンプレートを使って�
 
 このブログの目的は、後から振り返れるようにするための記録と、自分の活動を知ってもらうため。
 
-ブログの雰囲気や内容は、以下の方々を参考にさせてもらった。自分なりにゆるく楽しんで書いていけたらと思う。
+ブログの雰囲気や内容は、以下の方々を参考にさせてもらった。XにPostする感覚でゆるく書いていけたらと思う。
 
 - [Blogs | okuzawatsの日記](https://okuzawats.com/blog/)
 - [An Epicurean](https://blog.song.mu/)
