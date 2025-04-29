@@ -5,7 +5,7 @@ published: 2025-04-28
 description: ADRとは、Architectural Decision Recordsの略で、設計の意図や背景を記録するためのもの。その目的とテンプレについて。
 ---
 
-ADRとは、Architectural Decision Recordsの略で、設計の意図や背景を記録するためのもの。ここでは、今回導入する目的や参考にした記事をここに記録しておく。
+ADRとは、Architectural Decision Recordsの略で、設計の意図や背景を記録するためのもの。今回導入する目的や参考にした記事をここに記録しておく。
 
 ## 導入目的
 
