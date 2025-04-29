@@ -2,6 +2,8 @@
 title: Astroで個人ブログを始めてみた
 published: 2025-04-28
 # lang: 'ja'
+tags: 
+  - Astro
 description: astro-theme-retypesetというAstroテンプレートを使って個人ブログを構築した話。
 ---
 

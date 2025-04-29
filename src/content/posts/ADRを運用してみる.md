@@ -2,6 +2,8 @@
 title: ADRを運用するので具体例とテンプレを作成した話
 published: 2025-04-28
 # lang: 'ja'
+tags: 
+  - ADR
 description: ADRとは、Architectural Decision Recordsの略で、設計の意図や背景を記録するためのもの。その目的とテンプレについて。
 ---
 
