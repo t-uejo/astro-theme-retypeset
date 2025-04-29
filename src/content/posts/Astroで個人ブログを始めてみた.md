@@ -15,4 +15,5 @@ description: astro-theme-retypesetというAstroテンプレートを使って�
 - [An Epicurean](https://blog.song.mu/)
 - [Like a Bear](https://blog.yyada.jp/)
 - [egashira.dev](https://egashira.dev/)
+- [SEIYA｜冒険と創造](https://note.com/anc8)
 
