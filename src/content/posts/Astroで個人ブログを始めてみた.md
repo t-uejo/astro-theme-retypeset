@@ -2,7 +2,7 @@
 title: Astroで個人ブログを始めてみた
 published: 2025-04-28
 # lang: 'ja'
-description: astro-theme-retypesetというAstroテンプレートを使って個人ブログを構築した。
+description: astro-theme-retypesetというAstroテンプレートを使って個人ブログを構築した話。
 ---
 
 [stro-theme-retypeset](https://github.com/radishzzz/astro-theme-retypeset?tab=readme-ov-file)という[Astro](https://astro.build/)テンプレートを使ってブログを構築した。といってもGitHubからForkして、タイトルやテーマを少しカスタマイズしただけ。
