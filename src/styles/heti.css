@@ -47,7 +47,7 @@
   --at-apply: 'text-6 leading-9 mt-12';
 }
 .heti :where(h3) {
-  --at-apply: 'text-5 leading-9';
+  --at-apply: 'text-5 leading-9 mt-9';
 }
 .heti :where(h4) {
   --at-apply: 'text-4.5 leading-6';
