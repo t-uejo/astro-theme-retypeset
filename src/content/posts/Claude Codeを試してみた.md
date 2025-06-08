@@ -1,6 +1,6 @@
 ---
 title: Claude Codeで初めてのVibe Codingを体験した話
-published: 2024-06-08
+published: 2025-06-08
 # lang: 'ja'
 tags: 
   - AI
