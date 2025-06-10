@@ -8,17 +8,17 @@ tags:
 description: Claude Codeを実際に試してランディングページを作成した体験談。セットアップから完成まで。
 ---
 
-AnthropicからリリースされたClaude Codeを試してみた。Next.jsでランディングページを作成する過程で感じたことや気づいたポイントを記録しておく。
+<abbr title="Anthropic">Anthropic</abbr>からリリースされたClaude Codeを試してみた。<mark>Next.js</mark>でランディングページを作成する過程で感じたことや気づいたポイントを記録しておく。
 
 ## Claude Codeとは
 
-Claude Codeは、AIがコードを理解し、生成し、実際にプロジェクトを構築できるツールで、開発者の作業を大幅にサポートしてくれるターミナル型のAI開発環境である。
+Claude Codeは、<abbr title="Artificial Intelligence">AI</abbr>がコードを理解し、生成し、実際にプロジェクトを構築できるツールで、開発者の作業を大幅にサポートしてくれるターミナル型のAI開発環境である。
 
 チャットベースでの指示により、プロジェクト構築からコードの生成、ビルド実行、デバッグ、Git操作まで一連の開発作業を行うことができる。
 
 ## 作成したサイト
 
-実際に作成したサイトはこちら。Vercelでデプロイした。
+実際に作成したサイトはこちら。<mark>Vercel</mark>でデプロイした。
 
 https://claude-code-landing.vercel.app/
 
@@ -27,7 +27,7 @@ https://claude-code-landing.vercel.app/
 ### WSLのセットアップ
 
 > [!IMPORTANT]
-> Windows環境ではWSL上のみのサポートとなっているため、まずWSLを準備する必要がある。
+> Windows環境では<abbr title="Windows Subsystem for Linux">WSL</abbr>上のみのサポートとなっているため、まず<abbr title="Windows Subsystem for Linux">WSL</abbr>を準備する必要がある。
 
 ```bash
 wsl --install -d Ubuntu-24.04
@@ -38,13 +38,12 @@ wsl --install -d Ubuntu-24.04
 権限管理とバージョン管理の観点から、nvmを使用してNode.jsをインストールした。nvmを使うメリットは以下の通りである。
 
 > [!TIP]
-> nvmを使用することで以下のメリットがある：
 > 1. **sudo不要**: ユーザー権限でNode.jsの管理が可能
 > 2. **バージョン管理**: 複数のNode.jsバージョンの簡単切り替え
 > 3. **セキュリティ**: 管理者権限を使わないため安全
 > 4. **開発効率**: 権限エラーを気にせず開発が可能
 
-WSL環境で以下のコマンドを実行し、nvmをインストールした。
+<abbr title="Windows Subsystem for Linux">WSL</abbr>環境で以下のコマンドを実行し、<abbr title="Node Version Manager">nvm</abbr>をインストールした。
 
 ```bash
 # nvmのインストール
@@ -64,13 +63,13 @@ claude --version
 ```
 
 > [!NOTE]
-> インストール後、サブスクリプションプランであるProプランを選択してセットアップを完了した。これまでMaxプランのみだったが、Proプランでも利用できるようになっていた！
+> インストール後、サブスクリプションプランである<mark>Proプラン</mark>を選択してセットアップを完了した。これまで<mark>Maxプラン</mark>のみだったが、<mark>Proプラン</mark>でも利用できるようになっていた！
 
 ## 実際の開発体験
 
 ### プロジェクトの開始
 
-ターミナルはCursor上でUbuntu 24.04を立ち上げて使用した。
+ターミナルは<mark>Cursor</mark>上で<mark>Ubuntu 24.04</mark>を立ち上げて使用した。
 
 プロジェクトのディレクトリに移動してから`claude`コマンドを実行すると、そのディレクトリをベースとして作業が開始される。
 
@@ -96,7 +95,7 @@ Claude Codeが生成したコードや回答をCursorのコンテキストとし
 Claude Codeは以下のような流れで作業を進めた：
 
 1. **要件分析**: ランディングページに必要なセクションの洗い出し
-2. **技術選定**: Next.js App Router + HeroUI + TypeScriptの構成
+2. **技術選定**: <mark>Next.js App Router</mark> + <mark>HeroUI</mark> + <mark>TypeScript</mark>の構成
 3. **プロジェクト構築**: 必要なファイルとディレクトリ構造の作成
 4. **実装**: 各コンポーネントの作成
 5. **エラー対応**: 発生したエラーの自律的な解決
@@ -119,17 +118,17 @@ Claude Codeはデザインの要求に対しても適切に対応し、視覚効
 
 ### パッケージの移行対応
 
-UIライブラリについて、Claude CodeにHeroUIからNextUIへの移行を依頼してみた。
+<abbr title="User Interface">UI</abbr>ライブラリについて、Claude Codeに<mark>HeroUI</mark>から<mark>NextUI</mark>への移行を依頼してみた。
 
 問題なく適切にパッケージを移行してくれた。パッケージ移行も自動的に対応できる点は非常に便利だった。
 
 ## 完成までの時間とコスト
 
-総合的な作業時間は約1〜2時間ほどで、基本的なランディングページを作成することができた。
+総合的な作業時間は約<mark>1〜2時間</mark>ほどで、基本的なランディングページを作成することができた。
 
-今回はProプランのため料金はかかっていないが、仮にプランに加入していない場合のコストを確認したいと思った。
+今回は<mark>Proプラン</mark>のため料金はかかっていないが、仮にプランに加入していない場合のコストを確認したいと思った。
 
-そこで、非公式の[Claude Codeの使用料金を可視化するCLIツール「ccusage」](https://zenn.dev/ryoppippi/articles/6c9a8fe6629cd6)を使用した。
+そこで、非公式の[Claude Codeの使用料金を可視化する<abbr title="Command Line Interface">CLI</abbr>ツール「ccusage」](https://zenn.dev/ryoppippi/articles/6c9a8fe6629cd6)を使用した。
 
 ![Claude Codeの使用料金コスト画面の表示](../../assets/claude-code-cost.png)
 
@@ -145,7 +144,7 @@ Claude Codeを使った開発は以下の点で可能性を感じた：
 
 今回は、Claude Codeを使って初めてVibe Coding（直感的で流れるような開発体験）を試してみた。微妙な余白の調整なども的確に汲み取ってくれ、バグを伝えれば自律的に対応してくれる点が印象的だった。
 
-この体験を通じて、**コーディングはAI、人間がレビュー**という開発体制がすぐそこに来ていることを実感した。
+この体験を通じて、**コーディングは<abbr title="Artificial Intelligence">AI</abbr>、人間がレビュー**という開発体制がすぐそこに来ていることを実感した。
 
 Claude Codeは特にプロトタイプ作成やアイデアの具現化における0→1のフェーズにおいて威力を発揮するため、まずは個人開発で積極的に取り入れていきたい。
 
