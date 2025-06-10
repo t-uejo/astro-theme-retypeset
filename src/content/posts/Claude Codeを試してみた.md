@@ -26,7 +26,8 @@ https://claude-code-landing.vercel.app/
 
 ### WSLのセットアップ
 
-Windows環境ではWSL上のみのサポートとなっているため、まずWSLを準備した。
+> [!IMPORTANT]
+> Windows環境ではWSL上のみのサポートとなっているため、まずWSLを準備する必要があります。
 
 ```bash
 wsl --install -d Ubuntu-24.04
@@ -34,12 +35,16 @@ wsl --install -d Ubuntu-24.04
 
 ### Node.jsのインストール
 
-権限管理とバージョン管理の観点から、nvmを使用してNode.jsをインストールした。nvmを使うメリットは以下の通りである：
+権限管理とバージョン管理の観点から、nvmを使用してNode.jsをインストールした。nvmを使うメリットは以下の通りである。
 
-1. **sudo不要**: ユーザー権限でNode.jsの管理が可能
-2. **バージョン管理**: 複数のNode.jsバージョンの簡単切り替え
-3. **セキュリティ**: 管理者権限を使わないため安全
-4. **開発効率**: 権限エラーを気にせず開発が可能
+> [!TIP]
+> nvmを使用することで以下のメリットがあります：
+> 1. **sudo不要**: ユーザー権限でNode.jsの管理が可能
+> 2. **バージョン管理**: 複数のNode.jsバージョンの簡単切り替え
+> 3. **セキュリティ**: 管理者権限を使わないため安全
+> 4. **開発効率**: 権限エラーを気にせず開発が可能
+
+WSL環境で以下のコマンドを実行し、nvmをインストールした。
 
 ```bash
 # nvmのインストール
@@ -58,7 +63,8 @@ npm install -g @anthropic-ai/claude-code
 claude --version
 ```
 
-インストール後、サブスクリプションプランであるProプランを選択してセットアップを完了した。（これまでMaxプランのみだったが、Proプランでも利用できるようになった！）
+> [!NOTE]
+> インストール後、サブスクリプションプランであるProプランを選択してセットアップを完了した。（これまでMaxプランのみだったが、Proプランでも利用できるようになった！）
 
 ## 実際の開発体験
 
@@ -68,7 +74,7 @@ claude --version
 
 プロジェクトのディレクトリに移動してから`claude`コマンドを実行すると、そのディレクトリをベースとして作業が開始される。
 
-```
+```bash
 cd path-to-dir
 claude
 ```
@@ -95,8 +101,7 @@ Claude Codeは以下のような流れで作業を進めた：
 4. **実装**: 各コンポーネントの作成
 5. **エラー対応**: 発生したエラーの自律的な解決
 
-![](../../assets/claude-code-plan.png)
-要件分析を行い、タスクを整理してくれた。
+![Claude Codeによる要件分析とタスク整理の画面](../../assets/claude-code-plan.png)
 
 ### エラー対応
 
@@ -126,7 +131,7 @@ UIライブラリについて、Claude CodeにHeroUIからNextUIへの移行を�
 
 そこで、非公式の[Claude Codeの使用料金を可視化するCLIツール「ccusage」](https://zenn.dev/ryoppippi/articles/6c9a8fe6629cd6)を使用した。
 
-![](../../assets/claude-code-cost.png)
+![Claude Codeの使用料金コスト画面の表示](../../assets/claude-code-cost.png)
 
 ## 今後の展開
 
@@ -150,9 +155,12 @@ Claude Codeは特にプロトタイプ作成やアイデアの具現化におけ
 
 結論として、AIが生成したコードを統合・レビューする立場にある人間には、従来以上に高いレビュー力が求められるのではないだろうか。基礎知識と豊富な経験の重要性は、AI時代においても変わらないということを強く実感した。
 
+## 参考動画
+
+<iframe src="https://www.youtube.com/embed/6kBbbPDg12U?si=n6PxIpjnndZRMKTB" title="【Claude Code入門】初心者OK！誰でも爆速でアプリ開発ができる時代になりました" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 参考資料
 
-- [【Claude Code入門】初心者OK！誰でも爆速でアプリ開発ができる時代になりました - Youtube](https://youtu.be/6kBbbPDg12U?si=n6PxIpjnndZRMKTB)
 - [Claude Code 公式ドキュメント](https://docs.anthropic.com/ja/docs/claude-code/overview)
 - [Claude CodeをWindows上で使う方法 - Zenn](https://zenn.dev/acntechjp/articles/eb5d6c8e71bfb9)
 - [nvm - Node Version Manager](https://github.com/nvm-sh/nvm)
