@@ -126,6 +126,8 @@ UIライブラリについて、Claude CodeにHeroUIから**NextUI**への移行
 
 そこで、非公式のClaude Codeの使用料金を可視化するCLIツール [ccusage](https://zenn.dev/ryoppippi/articles/6c9a8fe6629cd6) を使用した。
 
+確認したところ、Totalで$8.97だった。
+
 ::github{repo="ryoppippi/ccusage"}
 
 ![Claude Codeの使用料金管理画面](../../assets/claude-code-cost.png)
