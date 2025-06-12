@@ -5,7 +5,7 @@ published: 2025-06-12
 tags: 
   - AI
   - Cursor
-description: CursorのProject Rules機能を活用してAI校正プロンプトを設定し、記事の校正作業を効率化する方法を紹介。Markdownの装飾要素を自動適用し、記事品質向上と作業効率改善を同時に実現する実践的なAI活用アイデア。
+description: CursorのProject Rules機能を活用してAI校正プロンプトを設定し、記事の校正作業を効率化する方法を紹介。
 ---
 
 ## はじめに
