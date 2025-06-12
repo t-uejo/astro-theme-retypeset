@@ -114,9 +114,6 @@ description: CursorのProject Rules機能を活用してAI校正プロンプト�
 
 > Ruleに従って校正してください。
 
-> [!IMPORTANT]
-> このシンプルなプロンプトだけで、Project Rulesに定義された*全ての校正ルール*が適用される。
-
 <hr>
 
 ## 得られた効果
