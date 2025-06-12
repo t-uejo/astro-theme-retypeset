@@ -23,16 +23,17 @@ description: CursorのProject Rules機能を活用してAI校正プロンプト�
 - **読みやすい文章**への変換
 - **markdownのオリジナルスタイル**を適用させた視認性の向上
 
-> [!TIP]
-> 以下のようなプロンプトを作成した。フォーマットとして以下のリポジトリを参考にした。
-
-::github{repo="kinopeee/cursorrules"}
 
 <hr>
 
 ## 実際のProject Rules
 
 以下は実際に**Project Rules**として校正時に使用しているプロンプトである。
+
+> [!TIP]
+> フォーマットとして以下のリポジトリを参考にした。
+
+::github{repo="kinopeee/cursorrules"}
 
 > あなたは高度な文章校正能力を持つAIアシスタントです。以下の指示に従って、効率的かつ正確に記事の文章を校正し、以降に記載されている方法でブラッシュアップしてください。
 >
