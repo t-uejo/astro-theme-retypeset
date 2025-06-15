@@ -19,7 +19,7 @@ Devinの初期設定と動作確認を行うことが目的なので、以下の
 
 ## 前提
 
-言語とフレームワーク
+言語とフレームワークは以下の通り。
 
 - Java 21
 - Spring BootによるREST APIアプリ
@@ -36,7 +36,7 @@ Devinの契約は**Coreプラン**で行った。
 
 プロモーションコードがあると**10ACU**を追加取得することができた。以下のサイトを参考にした。
 
-参考: https://hellocraftai.com/blog/1374/
+参考: [【2025年最新】Devin AIのプロモーションコード：最大200ドル分のクレジットを獲得する方法](https://hellocraftai.com/blog/1374/)
 
 :::warning
 契約せずに10ACUはもらえない。
@@ -75,15 +75,15 @@ Devinでは**WebベースのIDE**が提供される。UIは**VSCode**と変わ�
 
 以下のコマンドを実行して**Java 21**をインストールし、デフォルトに設定した：
 
-> ```bash
-> cd ~/repos/blog-api && \
-> curl -s "https://get.sdkman.io" | bash && \
-> source "$HOME/.sdkman/bin/sdkman-init.sh" && \
-> sdk version && \
-> sdk install java 21.0.7-amzn && \
-> sdk default java 21.0.7-amzn && \
-> java -version
-> ```
+```bash
+cd ~/repos/blog-api && \
+curl -s "https://get.sdkman.io" | bash && \
+source "$HOME/.sdkman/bin/sdkman-init.sh" && \
+sdk version && \
+sdk install java 21.0.7-amzn && \
+sdk default java 21.0.7-amzn && \
+java -version
+```
 
 > [!TIP]
 > **SDKMAN**を使用することで、複数のJavaバージョンを管理し、プロジェクトごとに適切なバージョンを使用できる。
