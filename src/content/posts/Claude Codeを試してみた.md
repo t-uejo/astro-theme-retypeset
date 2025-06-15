@@ -98,7 +98,7 @@ Claude Codeは以下のような流れで作業を進めた：
 4. **実装**: 各コンポーネントの作成
 5. **エラー対応**: 発生したエラーの自律的な解決
 
-![Claude Codeによる要件分析とタスク整理の画面表示](../../assets/claude-code-plan.png)
+![Claude Codeによる要件分析とタスク整理の画面表示](../images/claude-code-plan.png)
 
 ### エラー対応
 
@@ -130,7 +130,7 @@ UIライブラリについて、Claude CodeにHeroUIから**NextUI**への移行
 
 ::github{repo="ryoppippi/ccusage"}
 
-![Claude Codeの使用料金管理画面](../../assets/claude-code-cost.png)
+![Claude Codeの使用料金管理画面](../images/claude-code-cost.png)
 
 ---
 
