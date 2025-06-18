@@ -143,3 +143,10 @@ Project Rulesの**Rule Type**で利用方法を定義できるが、今回は**�
 ## 参考資料
 
 - [Cursor Documentation - Rules](https://docs.cursor.com/context/rules)
+
+:::warning
+記事作成に際して以下の作業のみAIで実施した。
+- 文章の誤字脱字の検知
+- 読みやすい文章への変換
+- Markdownスタイル適応
+:::

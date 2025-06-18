@@ -170,3 +170,10 @@ Claude Codeは特にプロトタイプ作成やアイデアの具現化におけ
 - [nvm - Node Version Manager](https://github.com/nvm-sh/nvm)
 - [Claude Pro（$20）プランでゼロから始めるClaude Code - Zenn](https://zenn.dev/asap/articles/700168965fdb7b)
 - [Claude Codeの使用料金を可視化するCLIツール「ccusage」を作った - Zenn](https://zenn.dev/ryoppippi/articles/6c9a8fe6629cd6)
+
+:::warning
+記事作成に際して以下の作業のみAIで実施した。
+- 文章の誤字脱字の検知
+- 読みやすい文章への変換
+- Markdownスタイル適応
+:::
