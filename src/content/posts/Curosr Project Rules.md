@@ -144,8 +144,10 @@ Project Rulesの**Rule Type**で利用方法を定義できるが、今回は**�
 
 - [Cursor Documentation - Rules](https://docs.cursor.com/context/rules)
 
+---
+
 :::warning
-記事作成に際して以下の作業のみAIで実施した。
+記事の作成に際して、以下の作業のみAIで実施しました。
 - 文章の誤字脱字の検知
 - 読みやすい文章への変換
 - Markdownスタイル適応
