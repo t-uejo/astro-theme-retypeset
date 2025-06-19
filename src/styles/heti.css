@@ -14,7 +14,7 @@
 
 /* Article Title */
 .heti .post-title {
-  --at-apply: 'mb-2 text-8.6 leading-12 font-bold c-primary lg:text-9';
+  --at-apply: 'mb-2 text-7 leading-12 font-bold c-primary lg:text-9';
 }
 
 /* Links */
