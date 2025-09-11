@@ -15,6 +15,8 @@ export const themeConfig: ThemeConfig = {
     author: 'Uejo',
     // site url
     url: 'https://github.com/t-uejo',
+    // base path for site deployment
+    base: '/',
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icon/favicon.png', // or https://example.com/favicon.svg
