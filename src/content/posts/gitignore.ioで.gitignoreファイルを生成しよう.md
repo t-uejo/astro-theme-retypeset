@@ -1,5 +1,5 @@
 ---
-title: .gitignoreファイルはgitignore.ioで生成しよう
+title: gitignore.ioで.gitignoreファイルを生成しよう
 published: 2025-09-11
 # lang: 'ja'
 tags: 
