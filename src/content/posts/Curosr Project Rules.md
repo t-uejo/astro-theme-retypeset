@@ -108,7 +108,7 @@ description: CursorのProject Rules機能を活用してAI校正プロンプト�
 
 ## 設定、利用方法
 
-設定するには、**Cursor**の管理画面から**Rules > Project Rules > Add Rule**を押すと `.cursor\rules`というフォルダに`.mdc` ファイルが作成される。
+設定するには、**Cursor**の管理画面から**Rules > Project Rules > Add Rule**を押すと `.cursor\rules` というフォルダに `.mdc` ファイルが作成される。
 
 > [!NOTE]
 > 記事校正用の Rule なので `blog-proofreading-rule` とした。
