@@ -7,6 +7,6 @@ tags:
 description: .gitignoreのテンプレートを生成してくれるサイトの話。
 ---
 
-.gitignoreのテンプレートを生成してくれるサイトを知った。
+.gitignore のテンプレートを生成してくれるサイトを知った。
 
-[gitignore.io](https://www.toptal.com/developers/gitignore)というサイトで、知っている人は多いと思うけど、自分みたいに意外と知らない人もいると思ったのでシェアも兼ねて記録。
+[gitignore.io](https://www.toptal.com/developers/gitignore) というサイトで、知っている人は多いと思うけど、自分みたいに意外と知らない人もいると思ったのでシェアも兼ねて記録。
