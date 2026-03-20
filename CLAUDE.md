@@ -51,4 +51,4 @@ abbrlink: string       # カスタムスラッグ
 
 ## 記事の記法
 
-記事を作成・編集する際は `/proofread` コマンドを使用すること。ルールの実体は `.cursor/rules/blog-proofreading-rule.mdc` で管理している。
+記事を作成・編集する際は `/proofread` コマンドを使用すること。ルールの実体は `.claude/rules/blog-proofreading-rule.md` で管理している。
